@@ -1,2 +1,8 @@
-package strategy.duck.pattern;public class QuackBehavior {
+package strategy.duck.pattern;
+
+public interface QuackBehavior {
+    public void quack();
 }
+
+
+
