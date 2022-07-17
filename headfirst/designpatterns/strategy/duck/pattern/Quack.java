@@ -1,4 +1,4 @@
-package strategy.duck.pattern;
+package headfirst.designpatterns.strategy.duck.pattern;
 
 public class Quack implements QuackBehavior {
 
