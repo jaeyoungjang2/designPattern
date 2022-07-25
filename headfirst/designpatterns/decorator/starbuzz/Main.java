@@ -8,6 +8,6 @@ public class Main {
                 + "parent._resetSignUp();";
         System.out.println(scripts);
 
-
+        System.out.println("longtestname@email.com".replaceAll("(?<=.{2}).(?=.*@)", "*"));
     }
 }
