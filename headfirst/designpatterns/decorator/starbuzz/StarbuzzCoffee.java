@@ -24,7 +24,6 @@ public class StarbuzzCoffee {
 		System.out.println(beverage3.getDescription() 
 				+ " $" + beverage3.cost());
 
-
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	}
 }

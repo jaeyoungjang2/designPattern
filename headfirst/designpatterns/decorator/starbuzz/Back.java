@@ -1,3 +1,4 @@
+/*
 package com.jirancomms.commssearch.resource.cool;
 
 import com.jirancomms.commssearch.pojo.cool.AlimiSettingBoardVM;
@@ -16,7 +17,8 @@ public class AlimiSettingResource {
         this.alimiSettingService = alimiSettingService;
     }
 
-    /**
+    */
+/**
      @apiGroup alimiSetting
      @apiName _save
      @api {post} /api/alimiSetting/_save 학교 홈페이지와 연동된 게시글 저장, 수정, 삭제
@@ -74,13 +76,15 @@ public class AlimiSettingResource {
      @apiError {Boolean} result    결과
      @apiError {String} message  에러메시지내용
      @apiError {Number} errorCode  에러코드값
-     */
+     *//*
+
     @PostMapping("/alimiSetting/_save")
     public CCResult saveSetting(@RequestBody AlimiSettingVM alimiSettingVM) {
         return this.alimiSettingService.saveSetting(alimiSettingVM);
     }
 
-    /**
+    */
+/**
      @apiGroup alimiSetting
      @apiName search
      @apiHeader Content-Type application/json
@@ -98,7 +102,8 @@ public class AlimiSettingResource {
      @apiError {Boolean} result    결과
      @apiError {String} message  에러메시지내용
      @apiError {Number} errorCode  에러코드값
-     **/
+     **//*
+
     @GetMapping("/alimiSetting/_search/fields")
     public CCResult searchSetting(AlimiSettingVM alimiSettingVM) {
         return this.alimiSettingService.searchSetting(alimiSettingVM);
@@ -119,3 +124,4 @@ public class AlimiSettingResource {
         return this.alimiSettingService.deleteSettingBoard(idx);
     }
 }
+*/
